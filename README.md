@@ -39,4 +39,7 @@ Usage
 -----
 
 - `form` / `dma_element_generator` ... regex will automatically be added to select list in field config
-- `dca` ... using `technicalValue` only accepts technical values, consisting of lower case letters, digits and underscrores
+- `dca` ... using:
+  - `tecValue` only accepts technical values, consisting of letters, digits and underscrores
+  - `tecValueLC` only accepts technical values, consisting of lower case letters, digits and underscrores
+  - `tecValueUC` only accepts technical values, consisting of upper case letters, digits and underscrores
