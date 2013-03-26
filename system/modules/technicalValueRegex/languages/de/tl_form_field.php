@@ -30,6 +30,8 @@
 /**
  * Fields
  */
-$GLOBALS['TL_LANG']['tl_form_field']['technicalValue'] = array('Technischer Wert', 'Erlaubt nur Kleinbuchstaben, Zahlen und Unterstriche.');
+$GLOBALS['TL_LANG']['tl_form_field']['tecValue']   = array('Technischer Wert', 'Erlaubt nur Buchstaben, Zahlen und Unterstriche.');
+$GLOBALS['TL_LANG']['tl_form_field']['tecValueLC'] = array('Technischer Wert (Kleinschreibung)', 'Erlaubt nur Kleinbuchstaben, Zahlen und Unterstriche.');
+$GLOBALS['TL_LANG']['tl_form_field']['tecValueUC'] = array('Technischer Wert (Großschreibung)', 'Erlaubt nur Großbuchstaben, Zahlen und Unterstriche.');
 
 ?>

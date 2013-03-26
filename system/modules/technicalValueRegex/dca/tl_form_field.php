@@ -30,6 +30,8 @@
 /**
  * Table tl_form_field
  */
-$GLOBALS['TL_DCA']['tl_form_field']['fields']['rgxp']['options'][] = 'technicalValue';
+$GLOBALS['TL_DCA']['tl_form_field']['fields']['rgxp']['options'][] = 'tecValue';
+$GLOBALS['TL_DCA']['tl_form_field']['fields']['rgxp']['options'][] = 'tecValueLC';
+$GLOBALS['TL_DCA']['tl_form_field']['fields']['rgxp']['options'][] = 'tecValueUC';
 
 ?>

@@ -30,6 +30,8 @@
 /**
  * Error message
  */
-$GLOBALS['TL_LANG']['ERR']['technicalValue'] = 'The field "%s" only accepts technical values, consisting of lower case letters, digits and underscores!';
+$GLOBALS['TL_LANG']['ERR']['tecValue']   = 'The field "%s" only accepts technical values, consisting of letters, digits and underscores!';
+$GLOBALS['TL_LANG']['ERR']['tecValueLC'] = 'The field "%s" only accepts technical values, consisting of lower case letters, digits and underscores!';
+$GLOBALS['TL_LANG']['ERR']['tecValueUC'] = 'The field "%s" only accepts technical values, consisting of upper case letters, digits and underscores!';
 
 ?>

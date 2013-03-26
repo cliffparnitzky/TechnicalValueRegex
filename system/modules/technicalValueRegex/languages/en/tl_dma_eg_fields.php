@@ -30,6 +30,8 @@
 /**
  * Fields
  */
-$GLOBALS['TL_LANG']['tl_dma_eg_fields']['eval_rgxp_select']['technicalValue'] = array('Technical value', 'Only accepts lower case letters, digits and underscores');
+$GLOBALS['TL_LANG']['tl_dma_eg_fields']['eval_rgxp_select']['tecValue']   = array('Technical value', 'Only accepts letters, digits and underscores');
+$GLOBALS['TL_LANG']['tl_dma_eg_fields']['eval_rgxp_select']['tecValueLC'] = array('Technical value (lower case)', 'Only accepts lower case letters, digits and underscores');
+$GLOBALS['TL_LANG']['tl_dma_eg_fields']['eval_rgxp_select']['tecValueUC'] = array('Technical value (upper case)', 'Only accepts upper case letters, digits and underscores');
 
 ?>

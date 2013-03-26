@@ -30,6 +30,8 @@
 /**
  * Table tl_dma_eg_fields
  */
-$GLOBALS['TL_DCA']['tl_dma_eg_fields']['fields']['eval_rgxp']['options'][] = 'technicalValue';
+$GLOBALS['TL_DCA']['tl_dma_eg_fields']['fields']['eval_rgxp']['options'][] = 'tecValue';
+$GLOBALS['TL_DCA']['tl_dma_eg_fields']['fields']['eval_rgxp']['options'][] = 'tecValueLC';
+$GLOBALS['TL_DCA']['tl_dma_eg_fields']['fields']['eval_rgxp']['options'][] = 'tecValueUC';
 
 ?>

@@ -30,6 +30,8 @@
 /**
  * Error message
  */
-$GLOBALS['TL_LANG']['ERR']['technicalValue'] = 'Im Feld "%s" sind nur technische Werte, bestehend aus Kleinbuchstaben, Zahlen und Unterstrichen, erlaubt!';
+$GLOBALS['TL_LANG']['ERR']['tecValue']   = 'Im Feld "%s" sind nur technische Werte, bestehend aus Buchstaben, Zahlen und Unterstrichen, erlaubt!';
+$GLOBALS['TL_LANG']['ERR']['tecValueLC'] = 'Im Feld "%s" sind nur technische Werte, bestehend aus Kleinbuchstaben, Zahlen und Unterstrichen, erlaubt!';
+$GLOBALS['TL_LANG']['ERR']['tecValueUC'] = 'Im Feld "%s" sind nur technische Werte, bestehend aus Großbuchstaben, Zahlen und Unterstrichen, erlaubt!';
 
 ?>

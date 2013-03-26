@@ -30,6 +30,8 @@
 /**
  * Fields
  */
-$GLOBALS['TL_LANG']['tl_dma_eg_fields']['eval_rgxp_select']['technicalValue'] = array('Technischer Wert', 'Erlaubt nur Kleinbuchstaben, Zahlen und Unterstriche.');
+$GLOBALS['TL_LANG']['tl_dma_eg_fields']['eval_rgxp_select']['tecValue']   = array('Technischer Wert', 'Erlaubt nur Buchstaben, Zahlen und Unterstriche.');
+$GLOBALS['TL_LANG']['tl_dma_eg_fields']['eval_rgxp_select']['tecValueLC'] = array('Technischer Wert (Kleinschreibung)', 'Erlaubt nur Kleinbuchstaben, Zahlen und Unterstriche.');
+$GLOBALS['TL_LANG']['tl_dma_eg_fields']['eval_rgxp_select']['tecValueUC'] = array('Technischer Wert (Großschreibung)', 'Erlaubt nur Großbuchstaben, Zahlen und Unterstriche.');
 
 ?>

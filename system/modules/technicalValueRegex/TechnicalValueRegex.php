@@ -43,12 +43,27 @@ class TechnicalValueRegex {
 	 */
 	public function addTechnicalValueRegex($strRegexp, $varValue, Widget $objWidget)
 	{
-		if ($strRegexp == 'technicalValue')
+		if ($strRegexp == 'tecValue')
+		{
+			if (!preg_match('/^[a-zA-Z0-9_]*$/', $varValue))
+			{
+				$objWidget->addError(sprintf($GLOBALS['TL_LANG']['ERR']['tecValue'], $objWidget->label));
+			}
+			return true; 
+		}
+		else if ($strRegexp == 'tecValueLC')
 		{
 			if (!preg_match('/^[a-z0-9_]*$/', $varValue))
 			{
-				$varValue = 'cliff';
-				$objWidget->addError(sprintf($GLOBALS['TL_LANG']['ERR']['technicalValue'], $objWidget->label));
+				$objWidget->addError(sprintf($GLOBALS['TL_LANG']['ERR']['tecValueLC'], $objWidget->label));
+			}
+			return true; 
+		}
+		else if ($strRegexp == 'tecValueUC')
+		{
+			if (!preg_match('/^[A-Z0-9_]*$/', $varValue))
+			{
+				$objWidget->addError(sprintf($GLOBALS['TL_LANG']['ERR']['tecValueUC'], $objWidget->label));
 			}
 			return true; 
 		}

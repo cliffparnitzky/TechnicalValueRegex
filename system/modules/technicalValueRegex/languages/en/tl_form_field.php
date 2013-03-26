@@ -30,6 +30,8 @@
 /**
  * Fields
  */
-$GLOBALS['TL_LANG']['tl_form_field']['technicalValue'] = array('Technical value', 'Only accepts lower case letters, digits and underscores');
+$GLOBALS['TL_LANG']['tl_form_field']['tecValue']   = array('Technical value', 'Only accepts letters, digits and underscores');
+$GLOBALS['TL_LANG']['tl_form_field']['tecValueLC'] = array('Technical value (lower case)', 'Only accepts lower case letters, digits and underscores');
+$GLOBALS['TL_LANG']['tl_form_field']['tecValueUC'] = array('Technical value (upper case)', 'Only accepts upper case letters, digits and underscores');
 
 ?>
