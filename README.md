@@ -1,8 +1,8 @@
 Contao Extension: TechnicalValueRegex
 =====================================
 
-Provides a regex that only allows technical values, consisting of:
-- lower case letters
+Provides regular expressions for technical values, consisting of:
+- letters (lower case / uper case / case insensitive)
 - underscrores
 - digits
 

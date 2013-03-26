@@ -30,6 +30,6 @@
 /**
  * Error message
  */
-$GLOBALS['TL_LANG']['MOD']['technicalValueRegex'] = 'Provides a regular expressions for technical values.';
+$GLOBALS['TL_LANG']['MOD']['technicalValueRegex'] = 'Provides regular expressions for technical values.';
 
 ?>
