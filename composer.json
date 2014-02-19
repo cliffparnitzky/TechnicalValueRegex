@@ -1,0 +1,34 @@
+{
+	"name":"cliffparnitzky/technical-value-regex",
+	"description":"Provides regular expressions for technical values, consisting of: letters (lower case / uper case / case insensitive), underscrores, digits ... No blank, special char or something else.",
+	"keywords":["contao","regex","rgxp","technical value"],
+	"type":"contao-module",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Cliff Parnitzky",
+			"email":"contao@cliff-parnitzky.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"contao@cliff-parnitzky.de",
+		"issues":"https://github.com/cliffparnitzky/TechnicalValueRegex/issues",
+		"source":"https://github.com/cliffparnitzky/TechnicalValueRegex"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=2.6.2,<4.0.0-dev",
+		"contao-community-alliance/composer-installer":"*"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"system/modules/TechnicalValueRegex":"system/modules/TechnicalValueRegex"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
