@@ -1,3 +1,7 @@
+[![Latest Version on Packagist](http://img.shields.io/packagist/v/cliffparnitzky/technical-value-regex.svg?style=flat)](https://packagist.org/packages/cliffparnitzky/technical-value-regex)
+[![Installations via composer per month](http://img.shields.io/packagist/dm/cliffparnitzky/technical-value-regex.svg?style=flat)](https://packagist.org/packages/cliffparnitzky/technical-value-regex)
+[![Installations via composer total](http://img.shields.io/packagist/dt/cliffparnitzky/technical-value-regex.svg?style=flat)](https://packagist.org/packages/cliffparnitzky/technical-value-regex)
+
 Contao Extension: TechnicalValueRegex
 =====================================
 
@@ -12,8 +16,9 @@ No `blank`, special char or something else.
 Installation
 ------------
 
-The extension is not published in contao extension repository.
-Install it manually.
+Install the extension via composer: [cliffparnitzky/technical-value-regex](https://packagist.org/packages/cliffparnitzky/technical-value-regex).
+
+If you prefer to install it manually, download the latest release here: https://github.com/cliffparnitzky/technical-value-regex/releases
 
 
 Tracker
@@ -25,14 +30,14 @@ https://github.com/cliffparnitzky/TechnicalValueRegex/issues
 Compatibility
 -------------
 
-- min. version: Contao 2.6.2
-- max. version: Contao 3.2.x
+- min. Contao version: >= 2.6.2
+- max. Contao version: <  3.6.0
 
 
 Dependency
 ----------
 
-- There are no dependencies to other extensions, that have to be installed.
+There are no dependencies to other extensions, that have to be installed.
 
 
 Usage
