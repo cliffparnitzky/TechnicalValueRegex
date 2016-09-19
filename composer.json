@@ -30,7 +30,7 @@
 	"extra":{
 		"contao":{
 			"sources":{
-				"system/modules/TechnicalValueRegex":"system/modules/TechnicalValueRegex"
+				"system/modules/technicalValueRegex":"system/modules/technicalValueRegex"
 			}
 		},
 		"branch-alias": {
