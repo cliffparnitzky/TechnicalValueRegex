@@ -30,8 +30,8 @@ https://github.com/cliffparnitzky/TechnicalValueRegex/issues
 Compatibility
 -------------
 
-- min. Contao version: >= 2.6.2
-- max. Contao version: <  3.6.0
+- Contao version >= 3.2.0 ... <  3.6.0
+- Contao version >= 4.4.0
 
 
 Dependency
